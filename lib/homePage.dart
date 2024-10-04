@@ -65,22 +65,20 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.black45,
-      appBar: PreferredSize(
-        preferredSize: Size.fromHeight(80.0),
-        child :AppBar(
+      appBar: AppBar(
           elevation: 10,
           backgroundColor: Colors.black12,
-          title: Padding(
-            padding: const EdgeInsets.only(top: 20, left: 20),
+          title: const Padding(
+            padding: EdgeInsets.only(left: 20),
             child: Text("sticklyfy.",
               style: TextStyle(
                 fontWeight: FontWeight.w500,
+                letterSpacing: 5,
                 color: Colors.grey,
                 fontSize: 36,
               ),
             ),
           ),
-        ),
       ),
         floatingActionButton: Row(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -90,7 +88,7 @@ class _HomePageState extends State<HomePage> {
               child: FloatingActionButton(
                 backgroundColor: Colors.black12,
               onPressed: _addStickyNote,
-                child: Icon(
+                child: const Icon(
                   Icons.add_circle,
                   color: Colors.blue,
                   size: 40,
@@ -99,7 +97,7 @@ class _HomePageState extends State<HomePage> {
             ),
             FloatingActionButton(onPressed: _deleteStickyNote,
               backgroundColor: Colors.black12,
-              child: Icon(Icons.delete,
+              child: const Icon(Icons.delete,
                 color: Colors.redAccent,
                 size: 40,
               ),
