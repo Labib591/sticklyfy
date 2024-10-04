@@ -8,7 +8,7 @@ part 'main.g.dart';
 void main() async{
   await Hive.initFlutter();
   Hive.registerAdapter(WidgetDataAdapter());
-  await Hive.openBox<Stickdata>('widgets');
+  await Hive.openBox<Stickdata>('widgets');         
   runApp(const MyApp());
 }
 
