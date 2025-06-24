@@ -1,6 +1,6 @@
-# 🗒️ Sticklify
+# 🗒️ Sticklyfy
 
-**Sticklify** is a clean, lightweight Flutter app designed to help you take and organize notes in the form of draggable sticky notes. Whether you're brainstorming ideas, managing tasks, or organizing thoughts, Sticklify gives you a visual and interactive way to do it all — powered by modern **BLoC state management**.
+**Sticklyfy** is a clean, lightweight Flutter app designed to help you take and organize notes in the form of draggable sticky notes. Whether you're brainstorming ideas, managing tasks, or organizing thoughts, Sticklify gives you a visual and interactive way to do it all — powered by modern **BLoC state management**.
 
 ---
 
@@ -20,16 +20,3 @@
 - **BLoC** — Business Logic Component pattern for predictable state management
 
 ---
-
-## 📸 Screenshots
-
-> _Add screenshots or a screen recording here to showcase the app in action._
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Flutter SDK installed
-- A device/emulator to run the app
